@@ -1,9 +1,13 @@
 #pragma once
 
 #include "stdafx.h"
+
 #include <string>
+#include "amNESia.h"
+
 
 using std::string;
+
 
 namespace amnesia {
 
@@ -12,9 +16,6 @@ class Cart
 public:
 	Cart();
 	~Cart();
-
-	typedef unsigned char byte;
-	typedef unsigned short address;
 
 	// iNES ROM header info
 	struct romHeader
@@ -43,6 +44,8 @@ public:
 	int readSaveRam(byte *outBuf, unsigned int maxBytes=0);
 	int writeSaveRam(byte *inBuf, unsigned int numBytes);
 
+	romHeader _iNesHeader; // TODO change
+
 private:
 
 	// Actual cart program data
@@ -58,9 +61,11 @@ private:
 	// file we used to load cart
 	string _romfile;
 	bool _isLoaded;
-	romHeader _iNesHeader;
+	//romHeader _iNesHeader;
 	
-	void loadRomHeader(char* hdrData);
+	char _header[16];
+
+	int loadRomHeader();
 };
 
 }// end namespace amnesia

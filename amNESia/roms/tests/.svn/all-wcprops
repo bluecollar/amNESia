@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/amnesia/!svn/ver/102/amNESia/roms/tests
+END
+5-branch_delays_irq.nes
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/amnesia/!svn/ver/60/amNESia/roms/tests/5-branch_delays_irq.nes
+END
+scanline.nes
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/amnesia/!svn/ver/60/amNESia/roms/tests/scanline.nes
+END
+4-irq_and_dma.nes
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/amnesia/!svn/ver/60/amNESia/roms/tests/4-irq_and_dma.nes
+END
+3-nmi_and_irq.nes
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/amnesia/!svn/ver/60/amNESia/roms/tests/3-nmi_and_irq.nes
+END
+2-nmi_and_brk.nes
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/amnesia/!svn/ver/60/amNESia/roms/tests/2-nmi_and_brk.nes
+END
+1-cli_latency.nes
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/amnesia/!svn/ver/60/amNESia/roms/tests/1-cli_latency.nes
+END
+nestest.nes
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/amnesia/!svn/ver/60/amNESia/roms/tests/nestest.nes
+END
+NEStress.NES
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/amnesia/!svn/ver/60/amNESia/roms/tests/NEStress.NES
+END
+cpu_interrupts.nes
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts.nes
+END

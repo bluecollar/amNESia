@@ -21,7 +21,7 @@ extern "C" {
                                /* Compilation options:       */
 /* #define FAST_RDOP */        /* Separate Op6502()/Rd6502() */
 /* #define DEBUG */            /* Compile debugging version  */
-/* #define LSB_FIRST */        /* Compile for low-endian CPU */
+#define LSB_FIRST        /* Compile for low-endian CPU */
 
                                /* Loop6502() returns:        */
 #define INT_NONE  0            /* No interrupt required      */

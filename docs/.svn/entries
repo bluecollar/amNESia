@@ -1,7 +1,7 @@
-8
+10
 
 dir
-24
+107
 https://svn.origo.ethz.ch/amnesia/docs
 https://svn.origo.ethz.ch/amnesia
 
@@ -12,7 +12,7 @@ https://svn.origo.ethz.ch/amnesia
 aesis
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 

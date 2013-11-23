@@ -22,6 +22,7 @@
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
 			CharacterSet="1"
+			EnableManagedIncrementalBuild="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -49,7 +50,7 @@
 				UsePrecompiledHeader="0"
 				BrowseInformation="1"
 				WarningLevel="4"
-				DebugInformationFormat="4"
+				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -63,10 +64,18 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="opengl32.lib glu32.lib"
+				ShowProgress="0"
 				LinkIncremental="2"
+				EnableUAC="false"
+				UACExecutionLevel="0"
 				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(OutDir)\$(TargetName).pdb"
+				StripPrivateSymbols="No"
+				GenerateMapFile="false"
 				SubSystem="2"
+				DataExecutionPrevention="1"
 				TargetMachine="1"
+				CLRImageType="0"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -248,6 +257,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\fine_timer.h"
+				>
+			</File>
+			<File
 				RelativePath=".\HID.h"
 				>
 			</File>
@@ -319,6 +332,14 @@
 			</File>
 			<File
 				RelativePath=".\M6502\Tables.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Other Files"
+			>
+			<File
+				RelativePath=".\nes_palette.inc"
 				>
 			</File>
 		</Filter>

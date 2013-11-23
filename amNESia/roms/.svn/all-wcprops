@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 33
-/amnesia/!svn/ver/23/amNESia/roms
+V 34
+/amnesia/!svn/ver/102/amNESia/roms
+END
+LunarPool.nes
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/amnesia/!svn/ver/72/amNESia/roms/LunarPool.nes
 END
 Excitebike.nes
 K 25
@@ -14,6 +20,60 @@ K 25
 svn:wc:ra_dav:version-url
 V 46
 /amnesia/!svn/ver/23/amNESia/roms/scanline.nes
+END
+superMarioBros.nes
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/amnesia/!svn/ver/26/amNESia/roms/superMarioBros.nes
+END
+MarioBros.nes
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/amnesia/!svn/ver/97/amNESia/roms/MarioBros.nes
+END
+1942.nes
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/amnesia/!svn/ver/91/amNESia/roms/1942.nes
+END
+KungFu.nes
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/amnesia/!svn/ver/90/amNESia/roms/KungFu.nes
+END
+PacMan.nes
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/amnesia/!svn/ver/72/amNESia/roms/PacMan.nes
+END
+Pinball.nes
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/amnesia/!svn/ver/90/amNESia/roms/Pinball.nes
+END
+Popeye.nes
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/amnesia/!svn/ver/90/amNESia/roms/Popeye.nes
+END
+colors2.nes
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/amnesia/!svn/ver/83/amNESia/roms/colors2.nes
+END
+CluCluLand.nes
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/amnesia/!svn/ver/91/amNESia/roms/CluCluLand.nes
 END
 DonkeyKong.nes
 K 25

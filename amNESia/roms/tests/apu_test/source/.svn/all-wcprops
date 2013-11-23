@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source
+END
+6-irq_flag_timing.s
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/6-irq_flag_timing.s
+END
+4-jitter.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/4-jitter.s
+END
+nes.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/nes.cfg
+END
+1-len_ctr.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/1-len_ctr.s
+END
+2-len_table.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/2-len_table.s
+END
+3-irq_flag.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/3-irq_flag.s
+END
+8-dmc_rates.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/8-dmc_rates.s
+END
+5-len_timing.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/5-len_timing.s
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/readme.txt
+END
+7-dmc_basics.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/amnesia/!svn/ver/60/amNESia/roms/tests/apu_test/source/7-dmc_basics.s
+END

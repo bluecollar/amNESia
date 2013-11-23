@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source
+END
+10.timing_order.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/10.timing_order.asm
+END
+09.timing_basics.asm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/09.timing_basics.asm
+END
+01.basics.asm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/01.basics.asm
+END
+05.left_clip.asm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/05.left_clip.asm
+END
+06.right_edge.asm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/06.right_edge.asm
+END
+07.screen_bottom.asm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/07.screen_bottom.asm
+END
+08.double_height.asm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/08.double_height.asm
+END
+11.edge_timing.asm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/11.edge_timing.asm
+END
+03.corners.asm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/03.corners.asm
+END
+04.flip.asm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/04.flip.asm
+END
+02.alignment.asm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/amnesia/!svn/ver/60/amNESia/roms/tests/sprite_hit_tests_2005.10.05/source/02.alignment.asm
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles
+END
+02-vbl_set_time.nes
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/02-vbl_set_time.nes
+END
+05-nmi_timing.nes
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/05-nmi_timing.nes
+END
+06-suppression.nes
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/06-suppression.nes
+END
+04-nmi_control.nes
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/04-nmi_control.nes
+END
+01-vbl_basics.nes
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/01-vbl_basics.nes
+END
+09-even_odd_frames.nes
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/09-even_odd_frames.nes
+END
+03-vbl_clear_time.nes
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/03-vbl_clear_time.nes
+END
+10-even_odd_timing.nes
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/10-even_odd_timing.nes
+END
+08-nmi_off_timing.nes
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/08-nmi_off_timing.nes
+END
+07-nmi_on_timing.nes
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/amnesia/!svn/ver/60/amNESia/roms/tests/ppu_vbl_nmi/rom_singles/07-nmi_on_timing.nes
+END

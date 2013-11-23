@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts_v2/rom_singles
+END
+5-branch_delays_irq.nes
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts_v2/rom_singles/5-branch_delays_irq.nes
+END
+4-irq_and_dma.nes
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts_v2/rom_singles/4-irq_and_dma.nes
+END
+3-nmi_and_irq.nes
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts_v2/rom_singles/3-nmi_and_irq.nes
+END
+2-nmi_and_brk.nes
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts_v2/rom_singles/2-nmi_and_brk.nes
+END
+1-cli_latency.nes
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/amnesia/!svn/ver/60/amNESia/roms/tests/cpu_interrupts_v2/rom_singles/1-cli_latency.nes
+END

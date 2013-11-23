@@ -1,22 +1,33 @@
-#include <cstdarg> // va_start(), va_*
-#include <sstream> // stringstream
-
-#include <stdio.h>  // printf()
-#include <string.h> // strcat_s
-#include <time.h>   // ctime()
-
 #include "logger.h"
-using namespace amnesia;
 
-int g_log_debug = 0;
+#include <cstdarg>     // va_start(), va_*
+#include <stdio.h>     // _vsnprintf_s()
+#include <time.h>      // time(), ctime_s()
+#include <windows.h>   // OutputDebugStringA
 
-void amnesia::lognow(const char *format, ...)
+
+Logger g_logger;
+
+
+void Logger::log(const char *format, ...)
 {
-	va_list v;
+	// Abide the rare request to squelch any iota of help come crash time
+	if (_log_level == L_QUIET)
+		return;
+
+	va_list va;
+	va_start(va, format);
+		vlog(format, va);
+	va_end(va);
+}
+
+void Logger::vlog(const char * format, va_list argp)
+{
+	// Locals
 	char buf[4096], *pbuf = buf;
 	int n;
 	
-	// print time
+	// Print time
 	*(pbuf++) = '[';
 	time_t clock = time(0); // this *will* be slow. TODO: don't call the system for time
 	ctime_s(pbuf, 26, &clock);
@@ -24,9 +35,7 @@ void amnesia::lognow(const char *format, ...)
 	*(pbuf++) = ']';
 	*(pbuf++) = ' ';
 
-	va_start(v, format);
-	n = _vsnprintf_s(pbuf, sizeof(buf) - (32 + 3), _TRUNCATE, format, v); // 32 for time, 3 for CR/LF/NULL
-	va_end(v);
+	n = _vsnprintf_s(pbuf, sizeof(buf) - (32 + 3), _TRUNCATE, format, argp); // 32 for time, 3 for CR/LF/NULL
 
 	pbuf += (n < 0) ? sizeof(buf) - (32 + 3) : n;
 	*(pbuf++) = '\r';
@@ -36,28 +45,50 @@ void amnesia::lognow(const char *format, ...)
 	OutputDebugStringA(buf);
 }
 
-/*class Logger
+
+void Logger::logDebug(const char *format, ...)
 {
-public:
-	typedef enum log_severity_t 
-	{
-		UNKNOWN = 0,
-		TRACE   = 1,
-		DEBUG   = 2,
-		WARN    = 3,
-		ERROR   = 4,
-		FATAL   = 5,
-		NUM_TYPES
-	};
+	if (!showLevel(L_DEBUG))
+		return;
 
-	typedef enum log_destination_t
-	{
-		STDERR,
-		STDOUT,
-		CONSOLE,
-		LOGFILE
-	};
+	va_list varg;
+	va_start(varg, format);
+		vlog(format, varg);
+	va_end(varg);
+}
 
-	void log(log_destination_t d, log_severity_t s, char* msg, ...)
-	
-};*/
+void Logger::logTrace(const char *format, ...)
+{
+	if (!showLevel(L_TRACE))
+		return;
+
+	va_list varg;
+	va_start(varg, format);
+		vlog(format, varg);
+	va_end(varg);
+}
+
+void Logger::logError(const char *format, ...)
+{
+	if (!showLevel(L_ERROR))
+		return;
+
+	va_list varg;
+	va_start(varg, format);
+		vlog(format, varg);
+	va_end(varg);
+}
+
+void Logger::setLevel(log_level_t level)
+{ 
+	if (level == L_END) 
+		level = L_QUIET;
+
+	if (_log_level != level) {
+		log(" *** ");
+		log("changing logging level from %d to %d", _log_level, level);
+		log(" *** ");
+		_log_level = level; 
+	}
+}
+

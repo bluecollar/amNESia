@@ -1,61 +1,61 @@
 K 25
 svn:wc:ra_dav:version-url
-V 28
-/amnesia/!svn/ver/24/amNESia
+V 29
+/amnesia/!svn/ver/107/amNESia
 END
 cart.h
 K 25
 svn:wc:ra_dav:version-url
-V 34
-/amnesia/!svn/ver/4/amNESia/cart.h
+V 35
+/amnesia/!svn/ver/67/amNESia/cart.h
 END
 amNESia.vcproj
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/amnesia/!svn/ver/14/amNESia/amNESia.vcproj
+/amnesia/!svn/ver/70/amNESia/amNESia.vcproj
 END
 stdafx.h
 K 25
 svn:wc:ra_dav:version-url
-V 36
-/amnesia/!svn/ver/1/amNESia/stdafx.h
+V 37
+/amnesia/!svn/ver/64/amNESia/stdafx.h
 END
 amNESia.rc
 K 25
 svn:wc:ra_dav:version-url
-V 38
-/amnesia/!svn/ver/1/amNESia/amNESia.rc
+V 39
+/amnesia/!svn/ver/70/amNESia/amNESia.rc
 END
 small.ico
 K 25
 svn:wc:ra_dav:version-url
-V 37
-/amnesia/!svn/ver/1/amNESia/small.ico
+V 38
+/amnesia/!svn/ver/70/amNESia/small.ico
 END
 cpu6502.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/amnesia/!svn/ver/24/amNESia/cpu6502.cpp
+/amnesia/!svn/ver/99/amNESia/cpu6502.cpp
 END
 HID.cpp
 K 25
 svn:wc:ra_dav:version-url
-V 35
-/amnesia/!svn/ver/1/amNESia/HID.cpp
+V 37
+/amnesia/!svn/ver/106/amNESia/HID.cpp
 END
 ppu.cpp
 K 25
 svn:wc:ra_dav:version-url
-V 36
-/amnesia/!svn/ver/20/amNESia/ppu.cpp
+V 37
+/amnesia/!svn/ver/107/amNESia/ppu.cpp
 END
 amNESia.ico
 K 25
 svn:wc:ra_dav:version-url
-V 39
-/amnesia/!svn/ver/1/amNESia/amNESia.ico
+V 40
+/amnesia/!svn/ver/70/amNESia/amNESia.ico
 END
 targetver.h
 K 25
@@ -67,19 +67,19 @@ HID.h
 K 25
 svn:wc:ra_dav:version-url
 V 34
-/amnesia/!svn/ver/14/amNESia/HID.h
+/amnesia/!svn/ver/70/amNESia/HID.h
 END
 cpu6502.h
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/amnesia/!svn/ver/17/amNESia/cpu6502.h
+/amnesia/!svn/ver/70/amNESia/cpu6502.h
 END
 ppu.h
 K 25
 svn:wc:ra_dav:version-url
-V 34
-/amnesia/!svn/ver/20/amNESia/ppu.h
+V 35
+/amnesia/!svn/ver/107/amNESia/ppu.h
 END
 audio_driver.cpp
 K 25
@@ -91,13 +91,13 @@ amNESia.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/amnesia/!svn/ver/20/amNESia/amNESia.cpp
+/amnesia/!svn/ver/87/amNESia/amNESia.cpp
 END
 logger.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 39
-/amnesia/!svn/ver/17/amNESia/logger.cpp
+/amnesia/!svn/ver/93/amNESia/logger.cpp
 END
 audio_driver.h
 K 25
@@ -109,25 +109,31 @@ video_driver.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/amnesia/!svn/ver/20/amNESia/video_driver.cpp
+/amnesia/!svn/ver/89/amNESia/video_driver.cpp
 END
 amNESia.h
 K 25
 svn:wc:ra_dav:version-url
-V 37
-/amnesia/!svn/ver/6/amNESia/amNESia.h
+V 38
+/amnesia/!svn/ver/70/amNESia/amNESia.h
 END
 logger.h
 K 25
 svn:wc:ra_dav:version-url
 V 37
-/amnesia/!svn/ver/17/amNESia/logger.h
+/amnesia/!svn/ver/70/amNESia/logger.h
+END
+fine_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/amnesia/!svn/ver/70/amNESia/fine_timer.h
 END
 video_driver.h
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/amnesia/!svn/ver/17/amNESia/video_driver.h
+/amnesia/!svn/ver/88/amNESia/video_driver.h
 END
 amNESia.sln
 K 25
@@ -138,8 +144,8 @@ END
 cart.cpp
 K 25
 svn:wc:ra_dav:version-url
-V 36
-/amnesia/!svn/ver/8/amNESia/cart.cpp
+V 37
+/amnesia/!svn/ver/70/amNESia/cart.cpp
 END
 stdafx.cpp
 K 25
@@ -153,9 +159,15 @@ svn:wc:ra_dav:version-url
 V 38
 /amnesia/!svn/ver/1/amNESia/ReadMe.txt
 END
+nes_palette.inc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/amnesia/!svn/ver/59/amNESia/nes_palette.inc
+END
 Resource.h
 K 25
 svn:wc:ra_dav:version-url
-V 38
-/amnesia/!svn/ver/1/amNESia/Resource.h
+V 39
+/amnesia/!svn/ver/70/amNESia/Resource.h
 END

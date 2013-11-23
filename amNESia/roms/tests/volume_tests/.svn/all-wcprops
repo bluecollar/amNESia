@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests
+END
+nes.ini
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests/nes.ini
+END
+zip.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests/zip.in
+END
+empty.chr
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests/empty.chr
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests/README.txt
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests/makefile
+END
+volumes.nes
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/amnesia/!svn/ver/60/amNESia/roms/tests/volume_tests/volumes.nes
+END
